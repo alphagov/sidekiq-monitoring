@@ -1,4 +1,4 @@
-publisher: sh -c 'cd publisher && bundle exec rackup -p 3079'
-signon: sh -c 'cd signon && bundle exec rackup -p 3080'
-whitehall: sh -c 'cd whitehall && bundle exec rackup -p 3081'
-transition: sh -c 'cd transition && bundle exec rackup -p 3086'
+publisher: cd publisher && exec bundle exec rackup -p 3079
+signon: cd signon && exec bundle exec rackup -p 3080
+whitehall: cd whitehall && exec bundle exec rackup -p 3081
+transition: cd transition && exec bundle exec rackup -p 3086
