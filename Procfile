@@ -1,5 +1,5 @@
-publisher: cd publisher && exec bundle exec rackup -p 3079
-signon: cd signon && exec bundle exec rackup -p 3080
-whitehall: cd whitehall && exec bundle exec rackup -p 3081
-transition: cd transition && exec bundle exec rackup -p 3086
-email-alert-api: cd email-alert-api && exec bundle exec rackup -p 3089
+publisher: cd publisher && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3079
+signon: cd signon && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3080
+whitehall: cd whitehall && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3081
+transition: cd transition && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3086
+email-alert-api: cd email-alert-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3089
