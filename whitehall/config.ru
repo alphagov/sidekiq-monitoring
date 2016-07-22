@@ -1,7 +1,11 @@
 require 'sidekiq'
 
 Sidekiq.configure_client do |config|
-  config.redis = YAML.load_file(File.join(__dir__, 'redis.yml')).symbolize_keys
+  config.redis = {
+    host: ENV["REDIS_HOST"] || "127.0.0.1",
+    port: ENV["REDIS_PORT"] || 6379,
+    namespace: "whitehall",
+  }
 end
 
 require 'sidekiq/web'
