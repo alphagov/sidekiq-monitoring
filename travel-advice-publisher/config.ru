@@ -2,7 +2,7 @@ require 'sidekiq'
 
 Sidekiq.configure_client do |config|
   config.redis = {
-    host: ENV["REDIS_HOST"] || "127.0.0.1",
+    host: "redis-1.backend",
     port: ENV["REDIS_PORT"] || 6379,
     namespace: "travel-advice-publisher",
   }
