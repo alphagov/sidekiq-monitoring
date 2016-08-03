@@ -9,6 +9,6 @@ Each directory contains a rack configuration and a redis configuration. `rackup`
 In order to run these apps use the processes configured in the Procfile:
 
 ```sh
-  $ bundle
-  $ bundle exec foreman start
+$ ./bin/setup
+$ ./bin/foreman start
 ```
