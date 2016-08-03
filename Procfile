@@ -1,12 +1,12 @@
-content-tagger: cd content-tagger && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3125
-dfid-transition: cd dfid-transition && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3124
-email-alert-api: cd email-alert-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3089
-email-campaign-api: cd email-campaign-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3117
-imminence: cd imminence && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3120
-publisher: cd publisher && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3079
-publishing-api: cd publishing-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3114
-rummager: cd rummager && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3091
-signon: cd signon && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3080
-transition: cd transition && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3086
-travel-advice-publisher: cd travel-advice-publisher && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3203
-whitehall: cd whitehall && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3081
+content-tagger: cd content-tagger && exec bundle exec rackup -p 3125
+dfid-transition: cd dfid-transition && exec bundle exec rackup -p 3124
+email-alert-api: cd email-alert-api && exec bundle exec rackup -p 3089
+email-campaign-api: cd email-campaign-api && exec bundle exec rackup -p 3117
+imminence: cd imminence && exec bundle exec rackup -p 3120
+publisher: cd publisher && exec bundle exec rackup -p 3079
+publishing-api: cd publishing-api && exec bundle exec rackup -p 3114
+rummager: cd rummager && exec bundle exec rackup -p 3091
+signon: cd signon && exec bundle exec rackup -p 3080
+transition: cd transition && exec bundle exec rackup -p 3086
+travel-advice-publisher: cd travel-advice-publisher && exec bundle exec rackup -p 3203
+whitehall: cd whitehall && exec bundle exec rackup -p 3081
