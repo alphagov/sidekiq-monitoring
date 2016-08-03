@@ -1,12 +1,12 @@
-content-tagger: cd content-tagger && exec bundle exec rackup -p 3125
-dfid-transition: cd dfid-transition && exec bundle exec rackup -p 3124
-email-alert-api: cd email-alert-api && exec bundle exec rackup -p 3089
-email-campaign-api: cd email-campaign-api && exec bundle exec rackup -p 3117
-imminence: cd imminence && exec bundle exec rackup -p 3120
-publisher: cd publisher && exec bundle exec rackup -p 3079
-publishing-api: cd publishing-api && exec bundle exec rackup -p 3114
-rummager: cd rummager && exec bundle exec rackup -p 3091
-signon: cd signon && exec bundle exec rackup -p 3080
-transition: cd transition && exec bundle exec rackup -p 3086
-travel-advice-publisher: cd travel-advice-publisher && exec bundle exec rackup -p 3203
-whitehall: cd whitehall && exec bundle exec rackup -p 3081
+content-tagger: GOVUK_APP_NAME=content-tagger bundle exec rackup -p 3125
+dfid-transition: GOVUK_APP_NAME=dfid-transition bundle exec rackup -p 3124
+email-alert-api: GOVUK_APP_NAME=email-alert-api bundle exec rackup -p 3089
+email-campaign-api: GOVUK_APP_NAME=email-campaign-api bundle exec rackup -p 3117
+imminence: GOVUK_APP_NAME=imminence bundle exec rackup -p 3120
+publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
+publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
+rummager: GOVUK_APP_NAME=rummager bundle exec rackup -p 3091
+signon: GOVUK_APP_NAME=signon bundle exec rackup -p 3080
+transition: GOVUK_APP_NAME=transition bundle exec rackup -p 3086
+travel-advice-publisher: GOVUK_APP_NAME=travel-advice-publisher bundle exec rackup -p 3203
+whitehall: GOVUK_APP_NAME=whitehall bundle exec rackup -p 3081
