@@ -1,4 +1,4 @@
-require 'sidekiq'
+require 'sidekiq/web'
 
 Sidekiq.configure_client do |config|
   config.redis = {
@@ -8,7 +8,6 @@ Sidekiq.configure_client do |config|
   }
 end
 
-require 'sidekiq/web'
 map '/travel-advice-publisher' do
   run Sidekiq::Web
 end
