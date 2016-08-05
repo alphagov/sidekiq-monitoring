@@ -9,3 +9,4 @@ publishing-api: cd publishing-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup 
 email-campaign-api: cd email-campaign-api && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3117
 imminence: cd imminence && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3120
 travel-advice-publisher: cd travel-advice-publisher && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3203
+content-tagger: cd content-tagger && LC_ALL=en_GB.UTF-8 exec bundle exec rackup -p 3125
