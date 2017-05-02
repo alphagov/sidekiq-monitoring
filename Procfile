@@ -4,6 +4,7 @@ dfid-transition: GOVUK_APP_NAME=dfid-transition bundle exec rackup -p 3124
 email-alert-api: GOVUK_APP_NAME=email-alert-api bundle exec rackup -p 3089
 email-campaign-api: GOVUK_APP_NAME=email-campaign-api bundle exec rackup -p 3117
 imminence: GOVUK_APP_NAME=imminence bundle exec rackup -p 3120
+link-checker-api: GOVUK_APP_NAME=link-checker-api bundle exec rackup -p 3209
 publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
 publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
 rummager: GOVUK_APP_NAME=rummager bundle exec rackup -p 3091
