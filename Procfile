@@ -8,6 +8,7 @@ publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
 publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
 rummager: GOVUK_APP_NAME=rummager bundle exec rackup -p 3091
 signon: GOVUK_APP_NAME=signon bundle exec rackup -p 3080
+specialist-publisher: GOVUK_APP_NAME=specialist-publisher bundle exec rackup -p 3210
 transition: GOVUK_APP_NAME=transition bundle exec rackup -p 3086
 travel-advice-publisher: GOVUK_APP_NAME=travel-advice-publisher bundle exec rackup -p 3203
 whitehall: GOVUK_APP_NAME=whitehall bundle exec rackup -p 3081
