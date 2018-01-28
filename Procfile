@@ -1,4 +1,5 @@
 asset-manager: GOVUK_APP_NAME=asset-manager bundle exec rackup -p 3038
+content-audit-tool: GOVUK_APP_NAME=content-audit-tool bundle exec rackup -p 3212
 content-performance-manager: GOVUK_APP_NAME=content-performance-manager bundle exec rackup -p 3207
 content-tagger: GOVUK_APP_NAME=content-tagger bundle exec rackup -p 3125
 dfid-transition: GOVUK_APP_NAME=dfid-transition bundle exec rackup -p 3124
