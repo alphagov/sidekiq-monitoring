@@ -2,7 +2,6 @@ asset-manager: GOVUK_APP_NAME=asset-manager bundle exec rackup -p 3038
 content-audit-tool: GOVUK_APP_NAME=content-audit-tool bundle exec rackup -p 3214
 content-performance-manager: GOVUK_APP_NAME=content-performance-manager bundle exec rackup -p 3207
 content-tagger: GOVUK_APP_NAME=content-tagger bundle exec rackup -p 3125
-dfid-transition: GOVUK_APP_NAME=dfid-transition bundle exec rackup -p 3124
 email-alert-api: GOVUK_APP_NAME=email-alert-api bundle exec rackup -p 3089
 imminence: GOVUK_APP_NAME=imminence bundle exec rackup -p 3120
 link-checker-api: GOVUK_APP_NAME=link-checker-api bundle exec rackup -p 3209
