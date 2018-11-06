@@ -6,7 +6,7 @@ GEM
     foreman (0.84.0)
       thor (~> 0.19.1)
     mustermann (1.0.2)
-    rack (2.0.4)
+    rack (2.0.6)
     rack-protection (2.0.1)
       rack
     redis (4.0.1)
@@ -36,4 +36,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.11.2
+   1.17.1
