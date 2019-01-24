@@ -11,6 +11,7 @@ organisations-publisher: GOVUK_APP_NAME=organisations-publisher bundle exec rack
 publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
 publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
 rummager: GOVUK_APP_NAME=rummager bundle exec rackup -p 3091
+search-api: GOVUK_APP_NAME=search-api bundle exec rackup -p 3234
 signon: GOVUK_APP_NAME=signon bundle exec rackup -p 3080
 specialist-publisher: GOVUK_APP_NAME=specialist-publisher bundle exec rackup -p 3210
 support-api: GOVUK_APP_NAME=support-api bundle exec rackup -p 3215
