@@ -12,7 +12,6 @@ manuals-publisher: GOVUK_APP_NAME=manuals-publisher bundle exec rackup -p 3214
 organisations-publisher: GOVUK_APP_NAME=organisations-publisher bundle exec rackup -p 3219
 publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
 publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
-rummager: GOVUK_APP_NAME=rummager bundle exec rackup -p 3091
 search-api: GOVUK_APP_NAME=search-api bundle exec rackup -p 3234
 signon: GOVUK_APP_NAME=signon bundle exec rackup -p 3080
 specialist-publisher: GOVUK_APP_NAME=specialist-publisher bundle exec rackup -p 3210
