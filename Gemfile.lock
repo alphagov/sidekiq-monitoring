@@ -6,7 +6,7 @@ GEM
     foreman (0.84.0)
       thor (~> 0.19.1)
     mustermann (1.0.3)
-    rack (2.0.6)
+    rack (2.0.8)
     rack-protection (2.0.2)
       rack
     redis (4.0.1)
