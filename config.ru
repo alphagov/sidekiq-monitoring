@@ -1,4 +1,5 @@
 require 'sidekiq/web'
+require 'govuk_app_config'
 
 app_name = ENV.fetch('GOVUK_APP_NAME')
 
@@ -12,4 +13,8 @@ end
 
 map "/#{app_name}" do
   run Sidekiq::Web
+end
+
+map "/healthcheck" do
+  run GovukHealthcheck.rack_response(GovukHealthcheck::SidekiqRedis)
 end
