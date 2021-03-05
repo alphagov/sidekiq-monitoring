@@ -19,3 +19,5 @@ support-api: GOVUK_APP_NAME=support-api bundle exec rackup -p 3215
 transition: GOVUK_APP_NAME=transition bundle exec rackup -p 3086
 travel-advice-publisher: GOVUK_APP_NAME=travel-advice-publisher bundle exec rackup -p 3203
 whitehall: GOVUK_APP_NAME=whitehall bundle exec rackup -p 3081
+
+healthcheck: bundle exec rackup -p 3242
