@@ -15,10 +15,6 @@ map "/#{app_name}" do
   run Sidekiq::Web
 end
 
-map "/healthcheck" do
-  run GovukHealthcheck.rack_response(GovukHealthcheck::SidekiqRedis)
-end
-
 map "/healthcheck/live" do
   run Proc.new { [200, {}, %w[OK]] }
 end
