@@ -1,3 +1,4 @@
+account-api: GOVUK_APP_NAME=account-api bundle exec rackup -p 3244
 asset-manager: GOVUK_APP_NAME=asset-manager bundle exec rackup -p 3038
 collections-publisher: GOVUK_APP_NAME=collections-publisher bundle exec rackup -p 3216
 content-data-admin: GOVUK_APP_NAME=content-data-admin bundle exec rackup -p 3240
