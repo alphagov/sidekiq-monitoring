@@ -1,4 +1,5 @@
-require 'sidekiq/web'
+require "sidekiq-unique-jobs"
+require 'sidekiq_unique_jobs/web'
 require 'govuk_app_config'
 
 app_name = ENV.fetch('GOVUK_APP_NAME')

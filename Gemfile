@@ -6,3 +6,5 @@ gem 'rack'
 gem 'redis-namespace'
 gem 'sidekiq', require: false
 gem 'sinatra'
+
+gem "sidekiq-unique-jobs", "~> 6.0"
