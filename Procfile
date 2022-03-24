@@ -8,6 +8,7 @@ content-tagger: GOVUK_APP_NAME=content-tagger bundle exec rackup -p 3125
 email-alert-api: GOVUK_APP_NAME=email-alert-api bundle exec rackup -p 3089
 imminence: GOVUK_APP_NAME=imminence bundle exec rackup -p 3120
 link-checker-api: GOVUK_APP_NAME=link-checker-api bundle exec rackup -p 3209
+locations-api: GOVUK_APP_NAME=locations-api bundle exec rackup -p 3246
 manuals-publisher: GOVUK_APP_NAME=manuals-publisher bundle exec rackup -p 3214
 publisher: GOVUK_APP_NAME=publisher bundle exec rackup -p 3079
 publishing-api: GOVUK_APP_NAME=publishing-api bundle exec rackup -p 3114
