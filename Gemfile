@@ -4,5 +4,5 @@ gem 'foreman'
 gem 'govuk_app_config'
 gem 'rack'
 gem 'redis-namespace'
-gem 'sidekiq', require: false
+gem 'govuk_sidekiq', require: false
 gem 'sinatra'
