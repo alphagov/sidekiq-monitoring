@@ -58,7 +58,7 @@ GEM
     null_logger (0.0.1)
     plek (4.0.0)
     public_suffix (4.0.7)
-    rack (2.1.4)
+    rack (2.1.4.1)
     rack-protection (2.0.2)
       rack
     raindrops (0.19.1)
