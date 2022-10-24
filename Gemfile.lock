@@ -100,6 +100,7 @@ GEM
     unicorn (5.8.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -111,6 +112,7 @@ DEPENDENCIES
   rack
   redis-namespace
   sinatra
+  webrick
 
 BUNDLED WITH
    2.1.4
