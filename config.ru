@@ -1,3 +1,8 @@
+# This extra require is needed for Rack < 3 and Sidekiq 5 or
+# we get a DelegateClass Error
+# https://onigra.github.io/blog/2020/02/24/undefined-method-delegate-class-on-rack-session-cookie/
+
+require "delegate"
 require 'sidekiq/web'
 require 'govuk_app_config'
 
