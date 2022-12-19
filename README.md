@@ -49,3 +49,7 @@ $ ./bin/foreman start
 [Redis]: http://redis.io
 [Ruby]: https://www.ruby-lang.org
 [Sidekiq]: http://sidekiq.org
+
+## Licence
+
+[MIT License](LICENCE)
