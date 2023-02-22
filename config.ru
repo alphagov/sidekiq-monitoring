@@ -6,6 +6,8 @@ require "delegate"
 require 'sidekiq/web'
 require 'govuk_app_config'
 
+use Rack::Session::Cookie, secret: ENV.fetch('SESSION_KEY'), same_site: true, max_age: 86_400
+
 app_name = ENV.fetch('GOVUK_APP_NAME')
 
 redis_prefix = app_name.tr('-', '_').upcase
