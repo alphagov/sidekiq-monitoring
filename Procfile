@@ -6,6 +6,7 @@ content-data-api: GOVUK_APP_NAME=content-data-api bundle exec rackup -p 3239
 content-publisher: GOVUK_APP_NAME=content-publisher bundle exec rackup -p 3236
 content-tagger: GOVUK_APP_NAME=content-tagger bundle exec rackup -p 3125
 email-alert-api: GOVUK_APP_NAME=email-alert-api bundle exec rackup -p 3089
+govuk-crawler-worker: GOVUK_APP_NAME=govuk-crawler-worker bundle exec rackup -p 3247
 imminence: GOVUK_APP_NAME=imminence bundle exec rackup -p 3120
 link-checker-api: GOVUK_APP_NAME=link-checker-api bundle exec rackup -p 3209
 locations-api: GOVUK_APP_NAME=locations-api bundle exec rackup -p 3246
