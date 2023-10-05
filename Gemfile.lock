@@ -86,8 +86,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.4)
-    rack-protection (3.0.4)
-      rack
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rack-proxy (0.7.4)
       rack
     rack-test (2.0.2)
@@ -129,14 +129,14 @@ GEM
     sidekiq-statsd (2.1.0)
       activesupport
       sidekiq (>= 3.3.1)
-    sinatra (3.0.4)
+    sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.4)
+      rack-protection (= 3.1.0)
       tilt (~> 2.0)
     statsd-ruby (1.5.0)
     thor (1.2.1)
-    tilt (2.0.11)
+    tilt (2.3.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
