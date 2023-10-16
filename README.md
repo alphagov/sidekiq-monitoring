@@ -1,3 +1,5 @@
+> This repo was archived in October 2023 as `sidekiq-monitoring` has been deprecated as part of GOV.UK's replatforming to EKS.
+
 # Sidekiq monitoring
 
 Sidekiq monitoring is a web application that uses [Sidekiq’s][sidekiq] [monitoring tool](https://github.com/mperham/sidekiq/wiki/Monitoring#standalone) to monitor multiple [Sidekiq] configurations used throughout [GOV.UK][govuk].
